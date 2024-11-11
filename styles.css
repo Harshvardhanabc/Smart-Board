@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#smartboard {
+    border: 2px solid #333;
+    background-color: #fff;
+    cursor: crosshair;
+}
+
+.toolbar {
+    margin-top: 10px;
+}
+
+button, label, input {
+    margin-right: 10px;
+}
+
+#textInput {
+    margin-top: 10px;
+    padding: 5px;
+}
